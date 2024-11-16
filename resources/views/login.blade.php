@@ -14,20 +14,20 @@
         <div class="flex justify-center items-center px-6 py-12 h-lvh">
             <div class="flex flex-col justify-center items-center w-96 p-8 border-black border">
                 <div class="flex justify-center items-center">
-                    <h2 class="text-4xl">Login</h2>
+                    <h2 class="text-4xl font-semibold">Login</h2>
                 </div>
                 <form class="flex flex-col space-y-4 w-full" action="POST">
                     @csrf
                     <div class="flex flex-col justify-start">
-                        <label class="text-xl" for="emai">Email</label>
-                        <input class="rounded-md" type="text" name="email" id="email">
+                        <label class="font-semibold text-2xl" for="emai">Email</label>
+                        <input type="text" name="email" id="email">
                     </div>
                     <div class="flex flex-col justify-start">
-                        <label class="text-xl" for="password">Password</label>
-                        <input class="rounded-md" type="password" name="password" id="password">
+                        <label class="font-semibold text-2xl" for="password">Password</label>
+                        <input type="password" name="password" id="password">
                     </div>
                     <div>
-                        <button type="submit" class="flex w-full justify-center bg-blue-500 border border-black text-3xl py-2 hover:[box-shadow:0.5rem_0.5rem_black] hover:translate-y-[-0.05rem] transition-all duration-300 ease-in-out">Login</button>
+                        <button type="submit" class="w-full text-center text-white font-semibold bg-[#00599D] border border-black text-4xl py-2 hover:[box-shadow:0.5rem_0.5rem_black] hover:translate-y-[-0.05rem] transition-all duration-300 ease-in-out">Login</button>
                     </div>
                 </form>
             </div>

@@ -16,35 +16,30 @@
                 <div class="flex justify-center">
                     <p class="font-semibold text-4xl">REGISTER</p>
                 </div>
-                <div class="mt-3">
-                    <p class="font-semibold text-2xl">USERNAME</p>
-                    <div>
-                        <form action="">
+                <form action="" method="post">
+                    <div class="mt-3">
+                        <label class="font-semibold text-2xl">USERNAME</label>
+                        <div>
                             <input type="text" placeholder="" class="mt-2 p-3 border border-gray-300  w-full">
-                        </form>
+                        </div>
                     </div>
-                </div>
-                <div class="mt-3">
-                    <p class="font-semibold text-2xl">EMAIL</p>
-                    <div>
-                        <form action="">
+                    <div class="mt-3">
+                        <label class="font-semibold text-2xl">EMAIL</label>
+                        <div>
                             <input type="text" placeholder="" class="mt-2 p-3 border border-gray-300  w-full">
-                        </form>
+                        </div>
                     </div>
-                </div>
-                <div class="mt-3">
-                    <p class="font-semibold text-2xl">PASSWORD</p>
-                    <div>
-                        <form action="">
-                            <input type="text" placeholder="" class="mt-2 p-3 border border-gray-300  w-full">
-                        </form>
+                    <div class="mt-3">
+                        <label class="font-semibold text-2xl">PASSWORD</label>
+                        <input type="text" placeholder="" class="mt-2 p-3 border border-gray-300  w-full">
                     </div>
-                </div>
-                <div class="mt-4 flex">
-                    <button class="bg-[#00599D] text-white font-semibold text-4xl w-full p-3 border-black shadow-sm">REGISTER</button>
-                </div>
+                    <div class="mt-4 flex">
+                        <button type="submit" class="bg-[#00599D] text-white font-semibold text-4xl w-full p-3 border-black hover:[box-shadow:0.5rem_0.5rem_black] hover:translate-y-[-0.05rem] transition-all duration-300 ease-in-out">REGISTER</button>
+                    </div>
+                </form>
             </div>
         </div>
+    </div>
     </div>
     <x-footer></x-footer>
 </body>
