@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .special-shadow {
+        @apply hover:[box-shadow:0.5rem_0.5rem_black] hover:translate-y-[-0.05rem] transition-all duration-300 ease-in-out;
+    }
+}
