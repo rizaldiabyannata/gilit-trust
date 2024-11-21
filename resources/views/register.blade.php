@@ -5,41 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
-    <title>Register</title>
+    <title>Login</title>
 </head>
 
-<body class="font-['Karantina']">
-    <div class="flex items-center justify-center min-h-screen "> <!--border-l-2 border-r-2-->
+<body class="flex flex-col min-h-screen">
+    <div>
         <x-navbar></x-navbar>
-        <div class="flex justify-center pt-4 border-black">
-            <div class="bg-white border border-black shadow-md px-8 py-6 max-w-md w-[710px] h-[470px]">
-                <div class="flex justify-center">
-                    <p class="font-semibold text-4xl">REGISTER</p>
+        <div class="flex justify-center items-center px-6 py-12 h-lvh">
+            <div class="">
+                    <img src="./picture/loginpic.png" class="h-[500px] w-[400px] rounded-tl-xl rounded-bl-xl" alt="">
+            </div>
+            <div class="flex flex-col justify-center  w-[500px] h-[500px] px-8 border-l-0 border-black border rounded-tr-xl rounded-br-xl">
+                <div class="flex-col justify-center pb-3">
+                    <h2 class="text-4xl font-bold">Welcome To Gili Trust</h2>
+                    <h2 class="text-xl font-semibold">Welcome To Gili Trust</h2>
                 </div>
-                <form action="" method="post">
-                    <div class="mt-3">
-                        <label class="font-semibold text-2xl">USERNAME</label>
-                        <div>
-                            <input type="text" placeholder="" class="mt-2 p-3 border border-gray-300  w-full">
-                        </div>
+                <form class="flex flex-col  w-full" action="POST">
+                    @csrf
+                    <div class="flex flex-col justify-start pb-2">
+                        <label class="text-xl font-semibold pb-2" for="emai">Username</label>
+                        <input class="rounded-xl" type="text" name="username" id="username">
                     </div>
-                    <div class="mt-3">
-                        <label class="font-semibold text-2xl">EMAIL</label>
-                        <div>
-                            <input type="text" placeholder="" class="mt-2 p-3 border border-gray-300  w-full">
-                        </div>
+                    <div class="flex flex-col justify-start pb-2">
+                        <label class="text-xl font-semibold pb-2" for="email">email</label>
+                        <input class="rounded-xl" type="password" name="email" id="email">
                     </div>
-                    <div class="mt-3">
-                        <label class="font-semibold text-2xl">PASSWORD</label>
-                        <input type="text" placeholder="" class="mt-2 p-3 border border-gray-300  w-full">
+                    <div class="flex flex-col justify-start pb-2">
+                        <label class="text-xl font-semibold pb-2" for="password">Password</label>
+                        <input class="rounded-xl" type="password" name="password" id="password">
                     </div>
-                    <div class="mt-4 flex">
-                        <button type="submit" class="bg-[#00599D] text-white font-semibold text-4xl w-full p-3 border-black hover:[box-shadow:0.5rem_0.5rem_black] hover:translate-y-[-0.05rem] transition-all duration-300 ease-in-out">REGISTER</button>
+                    <div class="flex flex-col justify-start pb-2">
+                        <label class="text-xl font-semibold pb-2" for="password">Confirm Password</label>
+                        <input class="rounded-xl" type="password" name="password" id="password">
+                    </div>
+                    <div>
+                        <button type="submit" class="flex w-full justify-center bg-[#1595A8] rounded-xl text-2xl py-2 text-white font-bold">LOGIN</button>
                     </div>
                 </form>
+
             </div>
         </div>
-    </div>
     </div>
     <x-footer></x-footer>
 </body>
