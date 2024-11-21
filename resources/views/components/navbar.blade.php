@@ -10,7 +10,7 @@
         </div>
         <div class="flex flex-row justify-end items-center space-x-6">
             <a href="">Login</a>
-            <a href="">Register</a>
+            <a href="/register">Register</a>
         </div>
     </div>
 </nav>
