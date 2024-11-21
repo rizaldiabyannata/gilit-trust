@@ -7,7 +7,7 @@ use Illuminate\Validation\ValidationException;
 use Illuminate\Http\Request;
 use App\Models\User;
 
-class registerController extends Controller
+class RegisterController extends Controller
 {
     public function index()
     {
