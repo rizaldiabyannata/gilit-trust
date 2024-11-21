@@ -19,8 +19,9 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
                 karantina: ['Karantina', 'sans-serif'],
+                poppins: ['Poppins', 'sans-serif'],
             },
         },
-    },
+    },        
     plugins: [],
 };

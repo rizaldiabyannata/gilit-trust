@@ -8,28 +8,33 @@
     <title>Login</title>
 </head>
 
-<body class="font-['Karantina'] flex flex-col min-h-screen">
+<body class="flex flex-col min-h-screen">
     <div>
         <x-navbar></x-navbar>
         <div class="flex justify-center items-center px-6 py-12 h-lvh">
-            <div class="flex flex-col justify-center items-center w-96 p-8 border-black border">
-                <div class="flex justify-center items-center">
-                    <h2 class="text-4xl">Login</h2>
+            <div class="">
+                    <img src="./picture/loginpic.png" class="h-[500px] w-[400px] rounded-tl-xl rounded-bl-xl" alt="">
+            </div>
+            <div class="flex flex-col justify-center  w-[500px] h-[500px] px-8 border-l-0 border-black border rounded-tr-xl rounded-br-xl">
+                <div class="flex-col justify-center pb-3">
+                    <h2 class="text-4xl font-bold">Welcome To Gili Trust</h2>
+                    <h2 class="text-xl font-semibold">Welcome To Gili Trust</h2>
                 </div>
                 <form class="flex flex-col space-y-4 w-full" action="POST">
                     @csrf
                     <div class="flex flex-col justify-start">
-                        <label class="text-xl" for="emai">Email</label>
-                        <input class="rounded-md" type="text" name="email" id="email">
+                        <label class="text-xl font-semibold pb-2" for="emai">Email</label>
+                        <input class="rounded-xl" type="text" name="email" id="email">
                     </div>
-                    <div class="flex flex-col justify-start">
-                        <label class="text-xl" for="password">Password</label>
-                        <input class="rounded-md" type="password" name="password" id="password">
+                    <div class="flex flex-col justify-start pb-2">
+                        <label class="text-xl font- pb-2" for="password">Password</label>
+                        <input class="rounded-xl" type="password" name="password" id="password">
                     </div>
                     <div>
-                        <button type="submit" class="flex w-full justify-center bg-blue-500 border border-black text-3xl py-2 hover:[box-shadow:0.5rem_0.5rem_black] hover:translate-y-[-0.05rem] transition-all duration-300 ease-in-out">Login</button>
+                        <button type="submit" class="flex w-full justify-center bg-[#1595A8] rounded-xl text-2xl py-2 text-white font-bold">LOGIN</button>
                     </div>
                 </form>
+
             </div>
         </div>
     </div>

@@ -1,3 +1,3 @@
-<footer class="font-['Karantina'] flex flex-row justify-center items-center h-24 bg-[#00599D] text-3xl w-full fixed bottom-0">
-    <p class="text-white">FOOTER</p>
+<footer class="font-poppins flex flex-row justify-center items-center h-20 w-full fixed bottom-0 [box-shadow:0_-0.2rem_0.2rem_rgba(0,0,0,0.1)]">
+    <p>FOOTER</p>
 </footer>
