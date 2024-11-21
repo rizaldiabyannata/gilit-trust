@@ -149,7 +149,7 @@
         <div class="sad-mac"></div>
         <h2 class="text-6xl micro-5-regular uppercase leading-none">Error @yield('code') <br> @yield('message')</h2>
         <div class="flex justify-center mt-6">
-            <a href="/home" class="bg-[#00599D] micro-5-regular text-white font-semibold text-4xl p-3 border-orange-400 border hover:[box-shadow:0.5rem_0.5rem_white] hover:translate-y-[-0.05rem] transition-all duration-300 ease-in-out">BACK TO HOME</a>
+            <a href="/login" class="bg-[#00599D] micro-5-regular text-white font-semibold text-4xl p-3 border-orange-400 border hover:[box-shadow:0.5rem_0.5rem_white] hover:translate-y-[-0.05rem] transition-all duration-300 ease-in-out">BACK TO HOME</a>
         </div>
     </figure>
 </body>
