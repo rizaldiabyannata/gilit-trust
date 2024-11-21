@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use App\Models\User;
+use Illuminate\Support\Facades\Log;
 
 class LoginController extends Controller
 {
@@ -16,21 +16,21 @@ class LoginController extends Controller
     public function auth(Request $request)
     {
         $credentials = $request->validate([
-            'email' => ['required', 'email'],
-            'password' => ['required']
+            'email' => 'required|email',
+            'password' => 'required|string',
         ]);
 
         if (Auth::attempt($credentials)) {
-            $user = User::where('email', $credentials['email'])->first();
+            $request->session()->regenerate();
+            Log::info('User logged in: ' . Auth::user()->email);
 
-            if ($user && $user->role === 'admin') {
-                return redirect('/admin/dashboard');
-            } elseif ($user && $user->role === 'pengusaha') {
-                return redirect('/');
-            } else {
-                return redirect('/home');
-            }
+            return redirect()->intended('/home')->with('success', 'Login successful!');
         }
-        return back();
+
+        Log::warning('Login failed for email: ' . $request->input('email'));
+
+        return back()->withErrors([
+            'email' => 'The provided credentials do not match our records.',
+        ])->onlyInput('email');
     }
 }
