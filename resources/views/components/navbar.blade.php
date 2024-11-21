@@ -7,6 +7,6 @@
     </div>
     <div class="flex flex-row justify-center items-center space-x-6">
         <a class="text-white" href="">Login</a>
-        <a class="text-white" href="">Register</a>
+        <!-- <a class="text-white" href="">Register</a> -->
     </div>
 </nav>
