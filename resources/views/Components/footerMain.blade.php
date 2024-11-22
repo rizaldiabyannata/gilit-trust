@@ -1,7 +1,7 @@
-<footer class="font-poppins flex flex-row justify-between items-center h-24 w-full px-10 bg-[#CFCFCF] [box-shadow:0_-0.2rem_0.2rem_rgba(0,0,0,0.1)]">
+<footer class="font-poppins flex flex-row justify-between items-center h-24 w-full relative bottom-0 px-10 mt-14 bg-[#CFCFCF] [box-shadow:0_-0.2rem_0.2rem_rgba(0,0,0,0.1)]">
     <div class="">
         <a href="">
-            <img src="./picture/logo.png" class="w-[95px] h-[50px]" alt="Logo">
+            <img src="{{ asset('picture/logo.png') }}" class="w-[95px] h-[50px]" alt="Logo">
         </a>
     </div>
     <div>
