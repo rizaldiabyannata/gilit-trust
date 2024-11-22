@@ -5,6 +5,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\TripController;
+use App\Http\Controllers\PemesananTripController;
 
 Route::get("/login", [LoginController::class, 'index']);
 Route::post('/login', [LoginController::class, 'auth']);
@@ -16,3 +17,5 @@ Route::Post("/register", [registerController::class, 'auth']);
 Route::get("/home", [MainPageController::class, 'index']);
 
 Route::get("/trip", [TripController::class, 'index']);
+
+Route::get("/trippemesanan", [PemesananTripController::class, 'index']);
