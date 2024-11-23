@@ -33,6 +33,9 @@
                     <div>
                         <img class="h-auto max-w-full rounded-lg" src="{{ asset('picture/gallery-6.png') }}" alt="">
                     </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('picture/gallery-6.png') }}" alt="">
+                    </div>
                 </div>
                 <div class="grid gap-4">
                     <div>
@@ -46,6 +49,9 @@
                     </div>
                 </div>
                 <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('picture/gallery-7.png') }}" alt="">
+                    </div>
                     <div>
                         <img class="h-auto max-w-full rounded-lg" src="{{ asset('picture/gallery-7.png') }}" alt="">
                     </div>
