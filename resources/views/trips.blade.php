@@ -12,11 +12,31 @@
     <x-navbarMain></x-navbarMain>
         <div class="pt-[90px] px-24">
             <p>Search</p>
-            <div class="border rounded-xl h-[46px] w-[220px] flex flex-row items-center justify-end pr-2">
-                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16.8059 18L10.5726 11.7C10.0779 12.1 9.50904 12.4167 8.86594 12.65C8.22283 12.8833 7.53849 13 6.81293 13C5.01552 13 3.49449 12.3707 2.24982 11.112C1.00516 9.85333 0.382496 8.316 0.381836 6.5C0.381177 4.684 1.00384 3.14667 2.24982 1.888C3.49581 0.629333 5.01684 0 6.81293 0C8.60902 0 10.1304 0.629333 11.377 1.888C12.6237 3.14667 13.246 4.684 13.244 6.5C13.244 7.23333 13.1286 7.925 12.8977 8.575C12.6669 9.225 12.3536 9.8 11.9578 10.3L18.191 16.6L16.8059 18ZM6.81293 11C8.04968 11 9.10108 10.5627 9.96714 9.688C10.8332 8.81333 11.2659 7.75067 11.2652 6.5C11.2646 5.24933 10.8319 4.187 9.96714 3.313C9.1024 2.439 8.051 2.00133 6.81293 2C5.57486 1.99867 4.52379 2.43633 3.65972 3.313C2.79564 4.18967 2.36261 5.252 2.36063 6.5C2.35866 7.748 2.79168 8.81067 3.65972 9.688C4.52775 10.5653 5.57882 11.0027 6.81293 11Z" fill="black"/>
-                </svg>
-            </div>
+            <form action="" method="post">
+                <div class="relative w-[220px] h-[46px]">
+                    <!-- Input -->
+                    <input
+                    type="text"
+                    class="border rounded-xl h-full w-full pl-4 pr-10"
+                    placeholder="Cari sesuatu..."
+                    />
+                    <!-- SVG Icon -->
+                    <svg
+                    class="absolute right-2 top-1/2 transform -translate-y-1/2"
+                    width="19"
+                    height="18"
+                    viewBox="0 0 19 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                        d="M16.8059 18L10.5726 11.7C10.0779 12.1 9.50904 12.4167 8.86594 12.65C8.22283 12.8833 7.53849 13 6.81293 13C5.01552 13 3.49449 12.3707 2.24982 11.112C1.00516 9.85333 0.382496 8.316 0.381836 6.5C0.381177 4.684 1.00384 3.14667 2.24982 1.888C3.49581 0.629333 5.01684 0 6.81293 0C8.60902 0 10.1304 0.629333 11.377 1.888C12.6237 3.14667 13.246 4.684 13.244 6.5C13.244 7.23333 13.1286 7.925 12.8977 8.575C12.6669 9.225 12.3536 9.8 11.9578 10.3L18.191 16.6L16.8059 18ZM6.81293 11C8.04968 11 9.10108 10.5627 9.96714 9.688C10.8332 8.81333 11.2659 7.75067 11.2652 6.5C11.2646 5.24933 10.8319 4.187 9.96714 3.313C9.1024 2.439 8.051 2.00133 6.81293 2C5.57486 1.99867 4.52379 2.43633 3.65972 3.313C2.79564 4.18967 2.36261 5.252 2.36063 6.5C2.35866 7.748 2.79168 8.81067 3.65972 9.688C4.52775 10.5653 5.57882 11.0027 6.81293 11Z"
+                        fill="black"
+                    />
+                    </svg>
+                </div>
+            </form>
+
         </div>
         <div class="flex flex-row w-full items-center space-x-6 justify-between px-24 pt-4">
             <!-- Dropdown 1 -->
@@ -263,7 +283,22 @@
             </div>
         </div>
 
-
+        <div class="flex items-center justify-center space-x-1 pt-6">
+            <button class="w-[40px] h-[40px] bg-[#C4CDD5] rounded-lg text-white flex justify-center items-center">
+                <svg width="9" height="12" viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.16016 1.41L3.58016 6L8.16016 10.59L6.75016 12L0.750156 6L6.75016 0L8.16016 1.41Z" fill="white"/>
+                </svg>
+            </button>
+            <button class="w-[40px] h-[40px] border border-[#C4CDD5] rounded-lg text-black">1</button>
+            <button class="w-[40px] h-[40px] border border-[#C4CDD5] rounded-lg text-black">2</button>
+            <button class="w-[40px] h-[40px] border border-[#C4CDD5] rounded-lg text-black">3</button>
+            <button class="w-[40px] h-[40px] border border-[#C4CDD5] rounded-lg text-black">4</button>
+            <button class="w-[40px] h-[40px] border border-[#C4CDD5] rounded-lg text-[#C4CDD5] flex justify-center items-center">
+                <svg width="9" height="12" viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.839844 1.41L5.41984 6L0.839844 10.59L2.24984 12L8.24984 6L2.24984 0L0.839844 1.41Z" fill="#C4CDD5"/>
+                </svg>
+            </button>
+        </div>
 
     <x-footerMain></x-footerMain>
 </body>
