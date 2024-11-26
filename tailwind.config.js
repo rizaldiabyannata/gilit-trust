@@ -20,6 +20,7 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
                 karantina: ['Karantina', 'sans-serif'],
                 poppins: ['Poppins', 'sans-serif'],
+                montserrat: ['Montserrat', 'sans-serif'],
             },
         },
     },        
