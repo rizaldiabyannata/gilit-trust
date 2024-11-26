@@ -11,7 +11,7 @@
 <body class="flex flex-col w-full font-poppins">
     <x-navbarMain></x-navbarMain>
         <div class="flex pt-[120px] w-full px-24 justify-center">
-            <div class="grid grid-cols-4 gap-4 w-full">
+            <div class="grid grid-cols-4 gap-2 w-full">
                 <div class="grid gap-4">
                     <div>
                         <img class="h-auto max-w-full rounded-lg" src="{{ asset('picture/gallery-1.png') }}" alt="">
