@@ -1,4 +1,4 @@
-<nav class="font-semibold text-lg flex flex-row items-center px-10 h-20 w-full fixed top-0 shadow-md font-poppins">
+<nav class="font-semibold text-lg flex flex-row items-center px-10 h-20 w-full top-0 shadow-md font-poppins">
     <a href="">
         <img src="./picture/logo.png" class="w-[95px] h-[50px]" alt="Logo">
     </a>

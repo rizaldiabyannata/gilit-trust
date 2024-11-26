@@ -11,11 +11,11 @@
 <body class="flex flex-col min-h-screen">
     <div>
         <x-navbar></x-navbar>
-        <div class="flex justify-center items-center px-6 py-12 h-lvh">
+        <div class="flex justify-center items-center px-6 pt-8 ">
             <div class="">
-                <img src="./picture/loginpic.png" class="h-[500px] w-[400px] rounded-tl-xl rounded-bl-xl" alt="">
+                <img src="./picture/loginpic.png" class="h-[460px] w-[400px] rounded-tl-xl rounded-bl-xl" alt="">
             </div>
-            <div class="flex flex-col justify-center  w-[500px] h-[500px] px-8 border-l-0 border-black border rounded-tr-xl rounded-br-xl">
+            <div class="flex flex-col justify-center  w-[500px] h-[460px] px-8 border-l-0 border-black border rounded-tr-xl rounded-br-xl">
                 <div class="flex-col justify-center pb-3">
                     <h2 class="text-4xl font-bold">Welcome To Gili Trust</h2>
                     <h2 class="text-xl font-semibold">Welcome To Gili Trust</h2>

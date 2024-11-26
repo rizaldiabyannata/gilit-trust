@@ -11,7 +11,7 @@
 <body class="flex flex-col min-h-screen">
     <div>
         <x-navbar></x-navbar>
-        <div class="flex justify-center items-center px-6 py-12 h-lvh">
+        <div class="flex justify-center items-center px-6 pt-[14px]">
             <div class="">
                 <img src="./picture/loginpic.png" class="h-[500px] w-[400px] rounded-tl-xl rounded-bl-xl" alt="">
             </div>
