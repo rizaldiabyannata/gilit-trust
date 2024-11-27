@@ -12,7 +12,7 @@
     <x-navPengusaha />
     <div class="flex flex-row h-full">
         <x-sidebar class="h-full" />
-        <div class="flex flex-col w-full h-full pt-[100px] space-y-12 px-24 ml-[450px] mb-12">
+        <div class="flex flex-col w-full h-full pt-[100px] space-y-12 px-24 ml-[350px] mb-12">
            <table class="borde text-center">
             <thead class="bg-cyan-300">
                 <tr>

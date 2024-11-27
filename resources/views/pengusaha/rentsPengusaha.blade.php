@@ -12,7 +12,7 @@
     <x-navPengusaha />
     <div class="flex flex-row h-full">
         <x-sidebar class="h-full" />
-        <div class="flex flex-col w-full h-full pt-[100px] px-16 ml-[450px] mb-12">
+        <div class="flex flex-col w-full h-full pt-[100px] px-16 ml-[350px] mb-12">
             <a href="" class="w-[100px] h-[50px] bg-cyan-400 rounded-lg flex justify-center items-center mb-4 hover:bg-slate-200 hover:text-slate-500">Buat</a>
             <div class="grid grid-cols-3 justify-between gap-4">
                 <div class="flex flex-col border rounded-xl w-[290px] hover:scale-105 transition-all ease-in-out cursor-pointer">

@@ -9,9 +9,9 @@
 </head>
 
 <body class="font-['poppins'] flex flex-col">
-    <x-navPengusaha />
+    <x-navbarMain />
     <div class="flex flex-row h-full">
-        <x-sidebar class="h-full" />
+        <x-sidebarUser class="h-full" />
         <div class="flex flex-col w-full h-full pt-[120px] space-y-12 px-24 ml-[350px] mb-12">
         <div class="flex w-full justify-center">
             <a href="" class="w-[200px] h-[200px] rounded-full bg-slate-300 hover:bg-opacity-50"></a>

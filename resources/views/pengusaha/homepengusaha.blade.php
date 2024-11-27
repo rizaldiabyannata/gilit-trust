@@ -12,7 +12,7 @@
     <x-navPengusaha />
     <div class="flex flex-row h-full">
         <x-sidebar class="h-full" />
-        <div class="flex flex-col w-full h-full pt-[120px] space-y-12 px-24 overflow-y-auto ml-[450px] mb-12">
+        <div class="flex flex-col w-full h-full pt-[120px] space-y-12 px-24 overflow-y-auto ml-[350px] mb-12">
             <div class="flex flex-row justify-between  w-full space-x-24">
                 <div class="flex flex-col rounded-xl bg-[#7CD0EF] h-[130px] w-full">
                     <p class="p-4">Total Order</p>

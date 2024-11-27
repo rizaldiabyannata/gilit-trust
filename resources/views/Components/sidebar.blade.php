@@ -1,4 +1,4 @@
-<div class="flex flex-col w-[450px] h-lvh shadow-2xl pt-[120px] px-6 fixed bg-white">
+<div class="flex flex-col w-[350px] h-lvh shadow-2xl pt-[120px] px-6 fixed bg-white">
     <p class="font-bold text-3xl">Hello Opi</p>
     <p class="font-light text-xl">Welcome to Halaman Pengusaha</p>
     <p class="border-t border-slate-400 w-full mt-4"></p>
@@ -23,7 +23,7 @@
         </a>
     </div>
     <div class="flex flex-col pt-4">
-        <a href="" class="flex border border-slate-400 rounded-xl h-[40px] items-center pl-4 text-lg font-semibold shadow-md">
+        <a href="/pengusaha/chat" class="flex border border-slate-400 rounded-xl h-[40px] items-center pl-4 text-lg font-semibold shadow-md">
             <p>Chat</p>
         </a>
     </div>
